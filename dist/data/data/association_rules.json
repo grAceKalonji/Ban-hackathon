@@ -1,0 +1,176 @@
+{
+  "rules": [
+    {
+      "rule_id": 0,
+      "antecedents": [
+        "level_Mid-Level Leader",
+        "type_leadership"
+      ],
+      "support": 0.0245,
+      "confidence": 0.8,
+      "lift": 3.6222,
+      "plain_english": "When Mid-Level Leader Level AND Leadership Role, hiring exceeds 90 days in 80% of cases (lift: 3.62)",
+      "antecedent_labels": [
+        "Mid-Level Leader Level",
+        "Leadership Role"
+      ],
+      "confidence_pct": 80,
+      "lift_rounded": 3.62
+    },
+    {
+      "rule_id": 1,
+      "antecedents": [
+        "level_Mid-Level Leader",
+        "region_North America",
+        "type_leadership"
+      ],
+      "support": 0.0245,
+      "confidence": 0.8,
+      "lift": 3.6222,
+      "plain_english": "When Mid-Level Leader Level AND North America Location AND Leadership Role, hiring exceeds 90 days in 80% of cases (lift: 3.62)",
+      "antecedent_labels": [
+        "Mid-Level Leader Level",
+        "North America Location",
+        "Leadership Role"
+      ],
+      "confidence_pct": 80,
+      "lift_rounded": 3.62
+    },
+    {
+      "rule_id": 2,
+      "antecedents": [
+        "level_Mid-Level Leader"
+      ],
+      "support": 0.0368,
+      "confidence": 0.6667,
+      "lift": 3.0185,
+      "plain_english": "When Mid-Level Leader Level, hiring exceeds 90 days in 67% of cases (lift: 3.02)",
+      "antecedent_labels": [
+        "Mid-Level Leader Level"
+      ],
+      "confidence_pct": 67,
+      "lift_rounded": 3.02
+    },
+    {
+      "rule_id": 3,
+      "antecedents": [
+        "level_Expert Contributor",
+        "type_other"
+      ],
+      "support": 0.0245,
+      "confidence": 0.6667,
+      "lift": 3.0185,
+      "plain_english": "When Expert Contributor Level AND Other Role Type, hiring exceeds 90 days in 67% of cases (lift: 3.02)",
+      "antecedent_labels": [
+        "Expert Contributor Level",
+        "Other Role Type"
+      ],
+      "confidence_pct": 67,
+      "lift_rounded": 3.02
+    },
+    {
+      "rule_id": 4,
+      "antecedents": [
+        "level_Mid-Level Leader",
+        "region_North America"
+      ],
+      "support": 0.0307,
+      "confidence": 0.625,
+      "lift": 2.8299,
+      "plain_english": "When Mid-Level Leader Level AND North America Location, hiring exceeds 90 days in 62% of cases (lift: 2.83)",
+      "antecedent_labels": [
+        "Mid-Level Leader Level",
+        "North America Location"
+      ],
+      "confidence_pct": 62,
+      "lift_rounded": 2.83
+    },
+    {
+      "rule_id": 5,
+      "antecedents": [
+        "level_Expert Contributor",
+        "region_APAC"
+      ],
+      "support": 0.0245,
+      "confidence": 0.5714,
+      "lift": 2.5873,
+      "plain_english": "When Expert Contributor Level AND Asia-Pacific Location, hiring exceeds 90 days in 57% of cases (lift: 2.59)",
+      "antecedent_labels": [
+        "Expert Contributor Level",
+        "Asia-Pacific Location"
+      ],
+      "confidence_pct": 57,
+      "lift_rounded": 2.59
+    },
+    {
+      "rule_id": 6,
+      "antecedents": [
+        "international",
+        "level_Expert Contributor",
+        "region_APAC"
+      ],
+      "support": 0.0245,
+      "confidence": 0.5714,
+      "lift": 2.5873,
+      "plain_english": "When International Location AND Expert Contributor Level AND Asia-Pacific Location, hiring exceeds 90 days in 57% of cases (lift: 2.59)",
+      "antecedent_labels": [
+        "International Location",
+        "Expert Contributor Level",
+        "Asia-Pacific Location"
+      ],
+      "confidence_pct": 57,
+      "lift_rounded": 2.59
+    },
+    {
+      "rule_id": 7,
+      "antecedents": [
+        "international",
+        "level_Expert Contributor"
+      ],
+      "support": 0.0368,
+      "confidence": 0.4286,
+      "lift": 1.9405,
+      "plain_english": "When International Location AND Expert Contributor Level, hiring exceeds 90 days in 43% of cases (lift: 1.94)",
+      "antecedent_labels": [
+        "International Location",
+        "Expert Contributor Level"
+      ],
+      "confidence_pct": 43,
+      "lift_rounded": 1.94
+    },
+    {
+      "rule_id": 8,
+      "antecedents": [
+        "region_APAC"
+      ],
+      "support": 0.0613,
+      "confidence": 0.4167,
+      "lift": 1.8866,
+      "plain_english": "When Asia-Pacific Location, hiring exceeds 90 days in 42% of cases (lift: 1.89)",
+      "antecedent_labels": [
+        "Asia-Pacific Location"
+      ],
+      "confidence_pct": 42,
+      "lift_rounded": 1.89
+    },
+    {
+      "rule_id": 9,
+      "antecedents": [
+        "international",
+        "region_APAC"
+      ],
+      "support": 0.0613,
+      "confidence": 0.4167,
+      "lift": 1.8866,
+      "plain_english": "When International Location AND Asia-Pacific Location, hiring exceeds 90 days in 42% of cases (lift: 1.89)",
+      "antecedent_labels": [
+        "International Location",
+        "Asia-Pacific Location"
+      ],
+      "confidence_pct": 42,
+      "lift_rounded": 1.89
+    }
+  ],
+  "total_rules_found": 285,
+  "rules_displayed": 10
+}

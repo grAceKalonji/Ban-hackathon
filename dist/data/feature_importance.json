@@ -1,0 +1,74 @@
+{
+  "features": [
+    {
+      "feature": "management_level_ordinal",
+      "importance": 0.3399,
+      "label": "Management Level"
+    },
+    {
+      "feature": "location_region_APAC",
+      "importance": 0.0998,
+      "label": "APAC Region"
+    },
+    {
+      "feature": "is_fixed_term",
+      "importance": 0.091,
+      "label": "Fixed-Term Contract"
+    },
+    {
+      "feature": "req_type_operational",
+      "importance": 0.0694,
+      "label": "Operational Role Type"
+    },
+    {
+      "feature": "location_region_EMEA",
+      "importance": 0.0556,
+      "label": "EMEA Region"
+    },
+    {
+      "feature": "openings",
+      "importance": 0.0534,
+      "label": "Number of Openings"
+    },
+    {
+      "feature": "req_type_other",
+      "importance": 0.0506,
+      "label": "Other Role Type"
+    },
+    {
+      "feature": "is_international",
+      "importance": 0.046,
+      "label": "International Location"
+    },
+    {
+      "feature": "req_type_technical",
+      "importance": 0.0403,
+      "label": "Technical Role Type"
+    },
+    {
+      "feature": "req_type_clinical",
+      "importance": 0.0383,
+      "label": "Clinical Role Type"
+    },
+    {
+      "feature": "location_region_North America",
+      "importance": 0.0374,
+      "label": "North America Region"
+    },
+    {
+      "feature": "req_type_commercial",
+      "importance": 0.0358,
+      "label": "Commercial Role Type"
+    },
+    {
+      "feature": "req_type_leadership",
+      "importance": 0.0331,
+      "label": "Leadership Role Type"
+    },
+    {
+      "feature": "location_region_Latin America",
+      "importance": 0.0092,
+      "label": "Latin America Region"
+    }
+  ]
+}
